@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Bazooka.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSys.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Shaders\shader.vert" />
+    <Text Include="Shaders\shader.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\wall.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\container.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\awesomeface.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\container2.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\container2_specular.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\lighting_maps_specular_color.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\matrix.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="resources\objects\Spider\kolorki.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\trawa.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\back.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\bottom.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\front.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\left.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\right.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\top.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\trawa2.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="resources\objects\Bazooka\bazooka_diffuse.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="resources\objects\arrow\blue.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="resources\objects\pocisk\pocisk_diffuse.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\grass_new.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\grass_new.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\particle\smoke.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\particle\explosion.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\particle\fire.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Textures\water.jpg">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp-vc140-mt.dll" />
+    <None Include="Shaders\animated_model.vert" />
+    <None Include="resources\objects\Spider\pajunk_1_1_1.dae" />
+    <None Include="resources\objects\Spider\pajunk_1_1_1.fbx" />
+    <None Include="Shaders\Skybox.vert" />
+    <None Include="Shaders\Skybox.frag" />
+    <None Include="resources\objects\Bazooka\bazooka.fbx" />
+    <None Include="resources\objects\arrow\Arrow.fbx" />
+    <None Include="resources\objects\pocisk\pocisk.fbx" />
+    <None Include="Shaders\particle.vert" />
+    <None Include="Shaders\particle.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_timer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Bazooka.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSys.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
